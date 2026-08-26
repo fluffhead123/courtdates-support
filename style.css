@@ -59,6 +59,28 @@ footer {
   font-size: .9rem;
 }
 
+/* The team-page diagram — the same wireframe the app shows in its export
+   guide. Drawn rather than screenshotted: no logo, colours or page design of
+   anyone else's is reproduced, and only the two link labels are real. */
+.diagram {
+  display: block;
+  width: 100%;
+  max-width: 24rem;
+  height: auto;
+  margin: 1rem 0 .35rem;
+}
+.diagram .frame { fill: none; stroke: var(--rule); stroke-width: 1.5; }
+.diagram .ph { fill: var(--rule); }
+.diagram .tab { fill: none; stroke: var(--rule); }
+.diagram .tab-on { fill: var(--rule); stroke: var(--rule); }
+.diagram text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+.diagram .label { fill: var(--ink); font-size: 10px; font-weight: 600; }
+.diagram .label-off { fill: var(--muted); font-size: 10px; }
+.diagram .mark { fill: none; stroke: #d9432f; stroke-width: 2; }
+.diagram .badge { fill: #d9432f; }
+.diagram .badge-text { fill: #fff; font-size: 9px; font-weight: 700; }
+.diagram-caption { color: var(--muted); font-size: .85rem; margin: 0 0 1.5rem; }
+
 code {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: .9em;
